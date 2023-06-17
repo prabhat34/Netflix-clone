@@ -1,0 +1,337 @@
+/* global css styling */
+
+*{
+    margin:0px;
+    padding :0px;
+}
+html{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.top-nav,.body-section,.section-6{
+    border-bottom: 5px solid #535251;
+}
+
+/* navbar styling */
+
+
+.top-nav{
+    background-image: url("background.jpg");
+    height: 110vh;   
+}
+
+.container{
+    height: 110vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.right-half-nav{
+     display:flex;
+     gap: 26px;
+    } 
+    
+.navbar{
+    padding: 25px 150px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.language-picker{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid #535251;
+    border-radius: 5px; 
+    
+}
+
+.material-icons{
+    color:white;
+}
+ .dropdown-container{
+    position: relative;
+}
+
+.language , .drop-down{
+    position:absolute;
+    top: 10px;
+}
+
+.language{
+    top: 8px;
+    left: 4px;
+    font-size: 1px;
+}
+
+.SignIn-Button{
+    background-color: #E50815;
+    width: 80px;
+    color: white;
+    font-weight: 50px;
+    border-radius: 5px;
+    border: none;
+    border: none;
+    height: 35px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.SignIn-Button:hover{
+    background-color: rgb(193,17,25);
+}
+
+.drop-down{
+    right:-3px;
+    top: 7px;
+    
+}
+
+
+/* content inside the navbar styling */
+
+.content{
+    width: 80%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.content h1 , .content p{
+    margin-top: 30px;
+}
+.content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 20px;
+}
+
+input{
+    background-color: rgba(0,0,0,0.7);
+    width: 350px;
+    border:1px solid #535251;
+    height: 50px;
+    padding-left: 10px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.getstarted{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 200px;
+    background-color: #E50815;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 10px;
+    border: 1px solid #E50815;
+    font-size: 15px;    
+}
+
+.getstarted:hover{
+    background-color: rgb(193,17,25);
+}
+
+.email-container{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* body-section css styling */
+.body-section{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 20px;
+    
+}
+
+.left-items{
+    margin:auto;
+}
+
+.left-items p{
+    line-height: 30px;
+}
+
+.right-items{
+    position: relative;
+}
+
+.right-items video
+{
+    position: absolute;
+    left: 80px;
+    top: 95px;
+    z-index: -1;
+}
+
+.section-3-right-half video{
+    position: absolute;
+    left: 110px;
+    top: 38px;
+    z-index: -1;
+    width: 400px;
+}
+
+.left-items h1{
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.left-items p{
+    font-size: 23px;
+    font-family:Arial;
+    margin-top: 30px ;
+    width: 450px;
+}
+.section-2-left-items{
+    position: relative;
+}
+.small-image{
+    background-color: black;
+    border: 2px solid #535251;
+    border-radius: 10px;
+    height: 110px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    margin-left: 20px;
+    justify-content: center;
+    
+
+}
+.small-image img{
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.small-image p{
+    margin: 30px 30px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.small-image p span{
+    color: blue;   
+}
+.section-2{
+    margin-bottom: 30px;
+}
+.section-2-left-items img{
+    margin-bottom: 25px;
+}
+
+.section-3,.section-4{
+    margin-top: 30px;
+}
+
+/* section 5 frequently asked questions css styling  */
+
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-5 h1{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.section-5-boxes{
+    margin-top: 10px;
+    width: 60rem;
+    background-color: #2d2d2d ;
+    height: 35px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.section-5-boxes:hover{
+    background-color: #4b4a4a;
+    transition-duration: 0.5s;
+}
+
+.section-5-boxes span{
+    font-size: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.section-6{   
+   margin-top: 15px;
+   width: 100%;
+   margin: 0px auto;
+}
+
+.section-6 .email-container{
+    margin-left: 125px;
+    margin-bottom: 80px;
+}
+
+/* Footer section css styling */
+.footer-container {
+    margin: auto;
+    padding: 100px;
+    color: #AFAFAF;
+}
+
+.footer-container p{
+    margin-bottom: 30px;
+}
+.footer-dropdown-container{
+    margin-top: 50px;
+}
+
+.footer-container a{
+    color: #AFAFAF;
+}
+.links-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+}
+.link-items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #AFAFAF;
+}
+
+.p2{
+    margin-top: 30px;
+}
+
+
